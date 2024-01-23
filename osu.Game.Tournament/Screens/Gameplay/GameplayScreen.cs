@@ -109,7 +109,7 @@ namespace osu.Game.Tournament.Screens.Gameplay
                         },
                         new SettingsSlider<int>
                         {
-                            LabelText = "绿幕宽度,
+                            LabelText = "绿幕宽度",
                             Current = LadderInfo.ChromaKeyWidth,
                             KeyboardStep = 1,
                         },

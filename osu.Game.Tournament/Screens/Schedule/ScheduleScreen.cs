@@ -34,7 +34,7 @@ namespace osu.Game.Tournament.Screens.Schedule
 
             InternalChildren = new Drawable[]
             {
-                new TourneyVideo("时间表")
+                new TourneyVideo("schedule")
                 {
                     RelativeSizeAxes = Axes.Both,
                     Loop = true,
