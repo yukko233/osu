@@ -121,10 +121,10 @@ namespace osu.Game.Tests.Visual.Online
         [Test]
         public void TestUserStatus()
         {
-            AddStep("online", () => status.Value = UserStatus.Online);
-            AddStep("do not disturb", () => status.Value = UserStatus.DoNotDisturb);
-            AddStep("offline", () => status.Value = UserStatus.Offline);
-            AddStep("null status", () => status.Value = null);
+            AddStep("在线", () => status.Value = UserStatus.Online);
+            AddStep("勿扰", () => status.Value = UserStatus.DoNotDisturb);
+            AddStep("离线", () => status.Value = UserStatus.Offline);
+            AddStep("未知状态", () => status.Value = null);
         }
 
         [Test]

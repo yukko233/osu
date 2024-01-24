@@ -101,7 +101,7 @@ namespace osu.Game.Tournament.Screens.MapPool
                         new ControlPanel.Spacer(),
                         new OsuCheckbox
                         {
-                            LabelText = "增加不同mod之间的间隔",
+                            LabelText = "将不同mod分开显示",
                             Current = LadderInfo.SplitMapPoolByMods,
                         },
                     },

@@ -143,7 +143,7 @@ namespace osu.Game.Tournament.Screens.Setup
                 new LabelledSwitchButton
                 {
                     Label = "显示队伍选种结果",
-                    Description = "队伍选种结果将在游戏画面以及图池的顶端显示",
+                    Description = "队伍选种结果将在游戏画面以及图池的队伍名称下面显示",
                     Current = LadderInfo.DisplayTeamSeeds,
                 },
             };

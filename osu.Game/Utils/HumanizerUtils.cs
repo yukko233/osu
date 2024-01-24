@@ -24,7 +24,7 @@ namespace osu.Game.Utils
             }
             catch (ArgumentException)
             {
-                return input.Humanize(culture: new CultureInfo("en-US"));
+                return input.Humanize(culture: new CultureInfo("zh-Hans"));
             }
         }
 

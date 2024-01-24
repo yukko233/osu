@@ -272,9 +272,9 @@ namespace osu.Game.Tournament.Screens.TeamIntro
                         Children = new Drawable[]
                         {
                             new TeamDisplay(team) { Margin = new MarginPadding { Bottom = 30 } },
-                            new RowDisplay("Average Rank:", $"#{team.AverageRank:#,0}"),
-                            new RowDisplay("Seed:", team.Seed.Value),
-                            new RowDisplay("Last year's placing:", team.LastYearPlacing.Value > 0 ? $"#{team.LastYearPlacing:#,0}" : "N/A"),
+                            new RowDisplay("平均排名:", $"#{team.AverageRank:#,0}"),
+                            new RowDisplay("排名:", team.Seed.Value),
+                            new RowDisplay("上次比赛中的排名:", team.LastYearPlacing.Value > 0 ? $"#{team.LastYearPlacing:#,0}" : "N/A"),
                             new Container { Margin = new MarginPadding { Bottom = 30 } },
                         }
                     },
