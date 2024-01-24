@@ -84,7 +84,7 @@ namespace osu.Game.Tournament
                     {
                         Depth = float.MinValue,
                     },
-                    heightWarning = new WarningBox("Please make the window wider")
+                    heightWarning = new WarningBox("请将窗口拉的更宽些")
                     {
                         Anchor = Anchor.BottomCentre,
                         Origin = Anchor.BottomCentre,

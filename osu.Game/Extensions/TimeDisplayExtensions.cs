@@ -74,7 +74,6 @@ namespace osu.Game.Extensions
 
             // TODO: support localisation (probably via `CommonStrings.CountHours()` etc.)
             // requires pluralisable string support framework-side
-            CommonStrings.CountHours(+8);
             if (difference < lowerCutoff)
                 return "刚刚";//CommonStrings.TimeNow.ToString();
 
