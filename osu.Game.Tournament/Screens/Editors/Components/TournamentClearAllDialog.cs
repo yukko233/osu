@@ -11,7 +11,7 @@ namespace osu.Game.Tournament.Screens.Editors.Components
     {
         public TournamentClearAllDialog(Action action)
         {
-            HeaderText = @"Clear all?";
+            HeaderText = @"确定要删除所有项目？";
             Icon = FontAwesome.Solid.Trash;
             DangerousAction = action;
         }

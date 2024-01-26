@@ -15,14 +15,14 @@ namespace osu.Game.Localisation
         public static LocalisableString HeaderText => new TranslatableString(getKey(@"header_text"), @"Confirm deletion of");
 
         /// <summary>
-        /// "Yes. Go for it."
+        /// "确定"
         /// </summary>
-        public static LocalisableString Confirm => new TranslatableString(getKey(@"confirm"), @"Yes. Go for it.");
+        public static LocalisableString Confirm => new TranslatableString(getKey(@"confirm"), @"确定");
 
         /// <summary>
-        /// "No! Abort mission"
+        /// "取消"
         /// </summary>
-        public static LocalisableString Cancel => new TranslatableString(getKey(@"cancel"), @"No! Abort mission");
+        public static LocalisableString Cancel => new TranslatableString(getKey(@"cancel"), @"取消");
 
         private static string getKey(string key) => $@"{prefix}:{key}";
     }
